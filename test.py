@@ -188,9 +188,10 @@
 #     print(ls[i], i)
 #     i = i+1
 
-#2 table
+# 2 table
 # for i in range(1,11):
-#     print("2 x {} = {}".format(i, 2*i))
+#     # print("2 * {} = {}".format(i, 2*i))
+#     print(f"2 * {i} = {2*i}")
 
 # LIST comprehension
 
@@ -227,3 +228,28 @@
 # ls2 = [x[0].upper()+x[1:-1].lower()+x[-1:].upper() for x in ls]
 # print(ls2)
 
+# num1 = int(input("Enter 1st value = "))
+# num2 = int(input("Enter 2nd value = "))
+
+# ls = [num1, num2]
+# print(ls)
+
+# num =int(input("Enter your value :"))
+
+# i = num -1
+# while i>=1:
+#     num = num * i
+#     i= i -1
+
+# print(f"Factorial is {num}")
+
+
+count = 0
+# ls =list((str(x) for x in range(0,101) if "3" in str(x)))
+# print(len(ls))
+for x in range(1,101):
+    x= str(x)
+    if '3' in x:
+        count=count+1
+
+print(f"3 is appeared {count} times")
