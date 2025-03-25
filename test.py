@@ -325,5 +325,89 @@ t2= (1,2,3,4,5,6,7)
 
 # print(t3)
 
+# # sets
+
+# s1 = {'hello','we','world'}
+# # print(s1)
+# # s1.add(99)
+# # s1.add(1)
+# # print(s1)
+# # s2 = {6,7,8,5}
+# # s1.update(s2)
+# print(s1)
+# s1.remove('we')
+
+# assignment
+# s1 = {'item 1', 'item 2'}
+# print(s1)
+# (v1,v2) = s1
+# print(v1)
+# print(v2)
+# v1 = 'jarawala'
+# v2 = 'lahore'
+# l1 = [v1,v2]
+# print(l1)
+# # t1 = tuple((l1))
+# # print(t1)
+
+# #assignment
+
+# l1 = ['hello', 'Pakistan', 1 ,0]
+# t1 = (True, False, 786, 'PTI')
+# nl = l1 + list((t1))
+# set1 = set((nl))
+# set2 = set((t1))
+# print(f'Set1 is {set1}')
+# print(f'set2 is {set2}')
+# print(f'Difference is {set1-set2}')
+# print(f'union is {set1| set2}')
+# print(f'Intersectio is {set1 & set2}')
 
 
+# t1= {"hello","Talha"}
+# # unpack
+# (t2,t3)= t1
+# print(t2)
+# print(t3)
+
+# t4= list([t2])
+# t5= list([t3])
+# print(t4)
+# print(t5)
+
+# t6 = tuple((t4))
+# t7 = tuple((t5))
+
+# print(t6)
+# print(t7)
+
+
+# a= [1,2,3]
+# b=(4,5,6)
+
+# c = a + list(b)
+# print(c)
+
+# d = set((c))
+# print(d)
+# e = set((b))
+# print(e)
+
+# f = d.difference(e)
+# print(f"Difference is {f}")
+
+# print(f" intersection is {d.intersection(e)}")
+
+# print(f" union is {d | e}")
+
+
+
+tup = (1,2,3,4,5,6,7,8,9,10)
+(a,b,c,d,e,f,g,h,*i) = tup
+
+print(list(i))
+
+
+t = i.append(45)
+
+print(set(i))
