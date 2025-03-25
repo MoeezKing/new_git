@@ -244,12 +244,86 @@
 # print(f"Factorial is {num}")
 
 
-count = 0
-# ls =list((str(x) for x in range(0,101) if "3" in str(x)))
-# print(len(ls))
-for x in range(1,101):
-    x= str(x)
-    if '3' in x:
-        count=count+1
+# count = 0
+# # ls =list((str(x) for x in range(0,101) if "3" in str(x)))
+# # print(len(ls))
+# for x in range(1,101):
+#     x= str(x)
+#     if '3' in x:
+#         count=count+1
 
-print(f"3 is appeared {count} times")
+# print(f"3 is appeared {count} times")
+
+
+#tuple
+# tup = ('hello', 'world')
+# t1= ('hello')
+# t2= ('hello',)
+
+# print(type(tup))
+# print(type(t2))
+# print(type(t1))
+
+#pass by refernce 
+# a=["10", '20']
+# b=a
+# b[0]= '15'
+
+# print(a)
+# print(b)
+
+# tuple
+
+# t = tuple(["lahore","karachi","jarawala"])
+# ls = list((t))
+# nl = [x[0:1].upper()+x[1:].lower() for x in ls]
+# t = tuple((nl))
+# print(t)
+
+t1= ("Fasilabad","jarawala","Lahore")
+t2= (1,2,3,4,5,6,7)
+
+# 5 methods
+# method 1
+# t3 = t2+ t1
+# t3 = t3[len(t2):] + t3[: len(t2)]
+# print(t3)
+
+# method 2
+# t3 = t2+t1
+# l = list((t3))
+# l.reverse()
+# t3 = tuple((l))
+# print(t3)
+
+# Method 3
+# t3 = t2+t1
+# t3 = t3[::-1]
+# print(t3)
+
+
+# Method 4
+# t3 = t2 + t1
+# l1 = list((t3))
+# l2 = []
+# for x in l1:
+#     l2.insert(0, x)
+# t3 = tuple((l2))
+# print(t3)
+
+# method 5
+# t3 = t2+ t1
+
+# l1 = []
+# for x in range(len(t2), len(t3)):
+#     l1.append(t3[x])
+
+# for x in range(0, len(t2)):
+#     l1.append(t3[x])
+
+# t3 = tuple((l1))
+
+# print(t3)
+
+
+
